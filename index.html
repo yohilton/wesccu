@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WESCCU - Western Chamber Co-operative Credit Union</title>
+    <meta name="description" content="Your Trusted Partner in Financial Growth. Save Today. Build Tomorrow.">
+    <link rel="icon" type="image/jpeg" href="assets/wesccu-logo.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="logo-spinner"></div>
+            <h2>WESCCU</h2>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo" aria-label="WESCCU home">
+                <img src="assets/wesccu-logo.jpg" alt="" aria-hidden="true">
+                <span class="logo-lockup">
+                    <span class="logo-name">WESCCU</span>
+                    <span class="logo-subtitle">Western Chamber Co-operative Credit Union</span>
+                </span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#branches">Branches</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <i data-lucide="moon" class="moon-icon"></i>
+                    <i data-lucide="sun" class="sun-icon"></i>
+                </button>
+                <a href="https://wa.me/233501301204?text=Hello%20WESCCU%2C%20I%E2%80%99d%20like%20to%20join.%20Please%20share%20the%20membership%20requirements%20and%20next%20steps." class="btn btn-primary nav-cta" target="_blank" rel="noopener noreferrer">Join Now</a>
+                <button class="mobile-menu-btn icon-btn" aria-label="Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="close-menu icon-btn"><i data-lucide="x"></i></button>
+        <div class="mobile-nav-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#branches">Branches</a>
+            <a href="#contact">Contact</a>
+            <a href="https://wa.me/233501301204?text=Hello%20WESCCU%2C%20I%E2%80%99d%20like%20to%20join.%20Please%20share%20the%20membership%20requirements%20and%20next%20steps." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Join Now</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg-animated"></div>
+            <div class="container hero-container">
+                <div class="hero-content reveal-up">
+                    <span class="badge">Sekondi-Takoradi Chamber of Commerce</span>
+                    <h1 class="hero-title">Save Today.<br>Build Tomorrow.</h1>
+                    <p class="hero-subtitle">
+                        Your Trusted Partner to <span id="typewriter" class="typewriter-text">Grow</span>
+                    </p>
+                    <p class="hero-desc">We are a member-owned financial institution committed to supporting individuals, entrepreneurs, and businesses through accessible and responsible financial services.</p>
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/233501301204?text=Hello%20WESCCU%2C%20I%E2%80%99d%20like%20to%20join.%20Please%20share%20the%20membership%20requirements%20and%20next%20steps." class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">Become a Member</a>
+                        <a href="#services" class="btn btn-outline btn-large">Explore Services</a>
+                    </div>
+                </div>
+                
+                <!-- Floating Decorative Elements -->
+                <div class="floating-decorations">
+                    <div class="float-item coin-1"><i data-lucide="coins"></i></div>
+                    <div class="float-item coin-2"><i data-lucide="trending-up"></i></div>
+                    <div class="float-item coin-3"><i data-lucide="piggy-bank"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WESCCU at a glance -->
+        <section class="stats-section" aria-label="WESCCU at a glance">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card glass reveal-up" style="transition-delay: 0.1s">
+                        <div class="stat-icon"><i data-lucide="map-pin"></i></div>
+                        <h3 class="stat-number"><span class="counter" data-target="3">0</span></h3>
+                        <p class="stat-label">Branches</p>
+                    </div>
+                    <div class="stat-card glass reveal-up" style="transition-delay: 0.2s">
+                        <div class="stat-icon"><i data-lucide="users"></i></div>
+                        <h3 class="stat-number"><span class="counter" data-target="1000">0</span>+</h3>
+                        <p class="stat-label">Active Members</p>
+                    </div>
+                    <div class="stat-card glass reveal-up" style="transition-delay: 0.3s">
+                        <div class="stat-icon"><i data-lucide="calendar-days"></i></div>
+                        <h3 class="stat-number"><span class="counter" data-target="5">0</span>+</h3>
+                        <p class="stat-label">Years of Trust</p>
+                    </div>
+                    <div class="stat-card glass reveal-up" style="transition-delay: 0.4s">
+                        <div class="stat-icon"><i data-lucide="piggy-bank"></i></div>
+                        <h3 class="stat-number">₵<span class="counter" data-target="10">0</span>M+</h3>
+                        <p class="stat-label">Savings Managed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-container">
+                    <div class="about-content reveal-left">
+                        <div class="section-header">
+                            <span class="eyebrow">Our story</span>
+                            <h2 class="section-title">A cooperative built around local business</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <p class="lead">WESCCU grew from a practical idea: give people and businesses in the Western Region a cooperative way to save and access credit.</p>
+                        <p>Established by the Sekondi-Takoradi Chamber of Commerce and Industry (STCCI), the credit union was shaped by the needs of the local business community. Members pool their savings and share capital, helping make financial services more rooted in the people they serve.</p>
+                        <p>That purpose still guides the story—from WESCCU’s early growth in Takoradi to its 2015 expansion into Elubo, where traders and businesses needed access to credit close to the Ghana–Côte d’Ivoire border.</p>
+
+                        <div class="promise-badge">
+                            <div class="promise-icon"><i data-lucide="hand-coins"></i></div>
+                            <div class="promise-text">
+                                <h4>Member-owned by design</h4>
+                                <p>Saving together helps build a stronger foundation for responsible lending and shared progress.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image-wrapper reveal-right">
+                        <div class="image-placeholder">
+                            <img src="assets/wesccu-member-banking.jpg" alt="WESCCU lifestyle artwork reading ‘Banking that Fits Your Lifestyle’" loading="lazy">
+                        </div>
+                        <div class="experience-badge glass">
+                            <span class="exp-number">2011</span>
+                            <span class="exp-text">Established in Takoradi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-history reveal-up">
+                    <div class="about-history-heading">
+                        <span class="eyebrow">Milestones</span>
+                        <h3>Growing with the community</h3>
+                    </div>
+                    <ol class="about-timeline">
+                        <li class="about-milestone">
+                            <span class="milestone-year">2011</span>
+                            <h4>A local idea takes shape</h4>
+                            <p>STCCI establishes WESCCU to respond to financial needs in the business community.</p>
+                        </li>
+                        <li class="about-milestone">
+                            <span class="milestone-year">2012</span>
+                            <h4>Members build momentum</h4>
+                            <p>WESCCU continued to grow its membership and strengthen its role in the local business community.</p>
+                        </li>
+                        <li class="about-milestone">
+                            <span class="milestone-year">2015</span>
+                            <h4>Extending service to Elubo</h4>
+                            <p>WESCCU opens an Elubo office to support traders and businesses in the border community.</p>
+                        </li>
+                    </ol>
+                    <p class="about-sources"><strong>Historical sources:</strong>
+                        <a href="https://www.myjoyonline.com/credit-union-acquires-new-software-to-track-members/" target="_blank" rel="noopener noreferrer">MyJoyOnline on WESCCU’s 2011 inception</a>,
+                        <a href="https://newsghana.com.gh/photos-gallery/page/9871/" target="_blank" rel="noopener noreferrer">GNA on the Elubo office opening</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section bg-alt">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Our Financial Solutions</h2>
+                    <div class="title-underline center"></div>
+                    <p class="section-subtitle">Tailored products to help you save, invest, and grow your business.</p>
+                </div>
+
+                <div class="services-tabs reveal-up">
+                    <button class="tab-btn active" data-tab="savings">Savings & Investment</button>
+                    <button class="tab-btn" data-tab="loans">Loans & Business Support</button>
+                </div>
+
+                <div class="tab-content-container">
+                    <!-- Savings Tab -->
+                    <div class="tab-pane active" id="savings">
+                        <div class="services-grid">
+                            <div class="service-card reveal-up" style="transition-delay: 0.1s">
+                                <div class="service-visual">
+                                    <img src="assets/wesccu-savings-account.jpg" alt="Savings jar and savings books on a desk" loading="lazy">
+                                    <span class="service-tag">Save every day</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3><a href="products/savings-account.html">Savings Account</a></h3>
+                                    <p>Build a savings habit with an account designed for regular deposits and access to your funds.</p>
+                                    <a class="service-link" href="products/savings-account.html">View account details <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="service-card reveal-up" style="transition-delay: 0.2s">
+                                <div class="service-visual">
+                                    <img src="assets/wesccu-susu-savings.jpg" alt="Traditional susu savings container secured with a lock" loading="lazy">
+                                    <span class="service-tag">Small steps, steady growth</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3><a href="products/susu-savings.html">Susu Savings</a></h3>
+                                    <p>A convenient daily savings option for traders, artisans, and informal-sector workers.</p>
+                                    <a class="service-link" href="products/susu-savings.html">View account details <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="service-card reveal-up" style="transition-delay: 0.3s">
+                                <div class="service-visual">
+                                    <img src="assets/wesccu-fixed-deposit.jpg" alt="Fixed deposit artwork with an illustration of growing coin savings" loading="lazy">
+                                    <span class="service-tag">Plan ahead</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3><a href="products/fixed-deposit.html">Fixed Deposit</a></h3>
+                                    <p>Set money aside for an agreed period and plan your next financial goal with the team.</p>
+                                    <a class="service-link" href="products/fixed-deposit.html">View account details <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="service-card reveal-up" style="transition-delay: 0.4s">
+                                <div class="service-visual">
+                                    <img src="assets/wesccu-shares-account.jpg" alt="Investment chart displayed on a tablet" loading="lazy">
+                                    <span class="service-tag">Own a share in the future</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3><a href="products/shares-account.html">Shares Account</a></h3>
+                                    <p>Become a member-owner and take part in the cooperative you help build.</p>
+                                    <a class="service-link" href="products/shares-account.html">View account details <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Loans Tab -->
+                    <div class="tab-pane" id="loans">
+                        <div class="services-grid">
+                            <div class="service-card reveal-up">
+                                <div class="service-visual">
+                                    <img src="assets/wesccu-member-banking.jpg" alt="WESCCU lifestyle banking campaign" loading="lazy">
+                                    <span class="service-tag">For life’s next step</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3><a href="products/personal-loans.html">Personal &amp; Member Loans</a></h3>
+                                    <p>Explore short-term, long-term, bridge, and personal relief loans, plus a staff and officers loan for eligible WESCCU personnel.</p>
+                                    <a class="service-link" href="products/personal-loans.html">View loan details <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="service-card reveal-up">
+                                <div class="service-visual">
+                                    <img src="assets/wesccu-contract-finance.webp" alt="Business owners sealing a financing agreement with a handshake" loading="lazy">
+                                    <span class="service-tag">For local enterprise</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3><a href="products/business-contract-finance.html">Business &amp; Contract Finance</a></h3>
+                                    <p>Support for working capital, stock, project costs, and business expansion—paired with practical guidance.</p>
+                                    <a class="service-link" href="products/business-contract-finance.html">View finance details <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="service-card reveal-up">
+                                <div class="service-visual">
+                                    <img src="assets/wesccu-agm-2026.jpg" alt="WESCCU member meeting campaign image" loading="lazy">
+                                    <span class="service-tag">Stronger together</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3><a href="products/group-financing.html">Group Financing</a></h3>
+                                    <p>Financing options for organized groups, associations, and community-based enterprises.</p>
+                                    <a class="service-link" href="products/group-financing.html">View group finance details <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="service-card reveal-up">
+                                <div class="service-visual">
+                                    <img src="assets/wesccu-business-advisory.jpg" alt="A business adviser meeting with a client" loading="lazy">
+                                    <span class="service-tag">More than money</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3><a href="products/business-advisory.html">Business Advisory</a></h3>
+                                    <p>Get practical guidance to help you make informed choices for your business and its next stage.</p>
+                                    <a class="service-link" href="products/business-advisory.html">View advisory details <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="service-note">Eligibility and supporting documents vary by loan. Review the product details and contact WESCCU before applying.</p>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section id="why-us" class="section why-us-section">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Why Members Trust Us</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="bento-grid">
+                    <div class="bento-card bento-large glass reveal-up">
+                        <i data-lucide="users-2"></i>
+                        <h3>Member-Owned</h3>
+                        <p>We are a cooperative where every member has a voice. Our profits are reinvested to provide better rates and services for you, not external shareholders.</p>
+                    </div>
+                    <div class="bento-card glass reveal-up" style="transition-delay: 0.1s">
+                        <i data-lucide="store"></i>
+                        <h3>SME Focused</h3>
+                        <p>Specialized understanding and support for small and medium enterprises.</p>
+                    </div>
+                    <div class="bento-card glass reveal-up" style="transition-delay: 0.2s">
+                        <i data-lucide="shield"></i>
+                        <h3>Trusted Cooperative</h3>
+                        <p>Safe, secure, and regulated financial environment for your hard-earned money.</p>
+                    </div>
+                    <div class="bento-card glass reveal-up" style="transition-delay: 0.3s">
+                        <i data-lucide="heart-handshake"></i>
+                        <h3>Community Oriented</h3>
+                        <p>Deeply invested in the growth and prosperity of the Western Region.</p>
+                    </div>
+                    <div class="bento-card glass reveal-up" style="transition-delay: 0.4s">
+                        <i data-lucide="headphones"></i>
+                        <h3>Friendly Service</h3>
+                        <p>Accessible, face-to-face support when you need it most.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WESCCU Community Gallery -->
+        <section class="section community-gallery bg-alt" aria-labelledby="community-gallery-title">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title" id="community-gallery-title">Growing Together</h2>
+                    <div class="title-underline center"></div>
+                    <p class="section-subtitle">Four ways WESCCU brings people and local business together. Pick a story to learn more or take your next step.</p>
+                </div>
+                <div class="community-gallery-grid">
+                    <figure class="community-gallery-card reveal-up">
+                        <img src="assets/wesccu-community-campaign.jpg" alt="WESCCU community campaign artwork" loading="lazy">
+                        <figcaption>
+                            <span class="community-card-label">People first</span>
+                            <h3>Shared values, shared progress</h3>
+                            <p>WESCCU’s campaign centers on people, integrity, and growing stronger together.</p>
+                            <a href="#why-us" class="community-card-link">See what guides us <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="community-gallery-card reveal-up" style="transition-delay: 0.1s">
+                        <img src="assets/wesccu-agm-2026.jpg" alt="WESCCU Annual General Meeting 2026 artwork with a member meeting collage" loading="lazy">
+                        <figcaption>
+                            <span class="community-card-label">Member ownership</span>
+                            <h3>A credit union shaped by members</h3>
+                            <p>Member meetings are part of how a cooperative stays connected to the people it serves.</p>
+                            <a href="#about" class="community-card-link">Read our story <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="community-gallery-card reveal-up" style="transition-delay: 0.2s">
+                        <img src="assets/wesccu-business-community.jpg" alt="WESCCU and STCCI business community opportunity flyer" loading="lazy">
+                        <figcaption>
+                            <span class="community-card-label">Local enterprise</span>
+                            <h3>Connected to business</h3>
+                            <p>WESCCU grew from the needs of the Sekondi-Takoradi business community.</p>
+                            <a href="#services" class="community-card-link">Explore business finance <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="community-gallery-card reveal-up" style="transition-delay: 0.3s">
+                        <img src="assets/wesccu-services-poster.jpg" alt="WESCCU poster introducing savings, loans, investment, and advisory services" loading="lazy">
+                        <figcaption>
+                            <span class="community-card-label">Financial solutions</span>
+                            <h3>A clear place to start</h3>
+                            <p>Compare savings and financing options, then contact WESCCU to discuss what fits your plans.</p>
+                            <a href="#services" class="community-card-link">Browse our services <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Membership CTA -->
+        <section id="join" class="section membership-cta">
+            <div class="container membership-container">
+                <div class="membership-content reveal-left">
+                    <h2>Ready to Build Tomorrow?</h2>
+                    <p>Join WESCCU today and take the first step towards financial stability and business growth.</p>
+                    <a href="https://wa.me/233501301204?text=Hello%20WESCCU%2C%20I%E2%80%99d%20like%20to%20join.%20Please%20share%20the%20membership%20requirements%20and%20next%20steps." class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">Continue on WhatsApp</a>
+                </div>
+                <div class="membership-reqs glass reveal-right">
+                    <h3>Membership Requirements</h3>
+                    <ul class="req-list">
+                        <li><i data-lucide="check-circle-2"></i> Valid National ID Card</li>
+                        <li><i data-lucide="check-circle-2"></i> Passport Photograph</li>
+                        <li><i data-lucide="check-circle-2"></i> Proof of Address (Utility bill)</li>
+                        <li><i data-lucide="check-circle-2"></i> Initial Deposit</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section testimonials-section bg-alt">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Success Stories</h2>
+                    <div class="title-underline center"></div>
+                </div>
+                
+                <div class="testimonial-carousel reveal-up">
+                    <div class="testimonial-track">
+                        <div class="testimonial-card glass">
+                            <div class="quote-icon"><i data-lucide="quote"></i></div>
+                            <p class="quote">"The Susu Savings helped me grow my trading capital without feeling the pinch. WESCCU is truly a partner for the everyday business person."</p>
+                            <div class="author">
+                                <div class="avatar"></div>
+                                <div class="author-info">
+                                    <h4>Aba Mensah</h4>
+                                    <span>Market Trader, Takoradi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card glass">
+                            <div class="quote-icon"><i data-lucide="quote"></i></div>
+                            <p class="quote">"When my construction firm needed quick financing to execute a project, WESCCU's contract financing saved the day. Their process was transparent and fast."</p>
+                            <div class="author">
+                                <div class="avatar"></div>
+                                <div class="author-info">
+                                    <h4>Kwame Osei</h4>
+                                    <span>Contractor, Sekondi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card glass">
+                            <div class="quote-icon"><i data-lucide="quote"></i></div>
+                            <p class="quote">"Beyond loans, the business advisory support has transformed how I keep records and manage my inventory. I'm proud to be a shareholder."</p>
+                            <div class="author">
+                                <div class="avatar"></div>
+                                <div class="author-info">
+                                    <h4>Grace Arthur</h4>
+                                    <span>Boutique Owner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Branches Section -->
+        <section id="branches" class="section branches-section">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Our Branches</h2>
+                    <div class="title-underline center"></div>
+                    <p class="section-subtitle">Find a WESCCU branch near you in the Western Region.</p>
+                </div>
+                
+                <div class="branches-grid">
+                    <div class="branch-card glass reveal-up" style="transition-delay: 0.1s">
+                        <div class="branch-icon"><i data-lucide="building"></i></div>
+                        <h3>Takoradi (Main)</h3>
+                        <p><i data-lucide="map-pin"></i> Anaji, St. Francis Street, Takoradi</p>
+                        <button class="branch-map-select active" type="button" data-location="WESCCU Anaji St Francis Street Takoradi Ghana" data-label="Takoradi (Main)" aria-pressed="true">Show on map <i data-lucide="map" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="branch-card glass reveal-up" style="transition-delay: 0.2s">
+                        <div class="branch-icon"><i data-lucide="building"></i></div>
+                        <h3>Elubo Branch</h3>
+                        <p><i data-lucide="map-pin"></i> Elubo, Jomoro, Western Region</p>
+                        <button class="branch-map-select" type="button" data-location="WESCCU Elubo Ghana" data-label="Elubo Branch" aria-pressed="false">Show on map <i data-lucide="map" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="branch-card glass reveal-up" style="transition-delay: 0.3s">
+                        <div class="branch-icon"><i data-lucide="building"></i></div>
+                        <h3>Aboso Branch</h3>
+                        <p><i data-lucide="map-pin"></i> Aboso, Western Region, Ghana</p>
+                        <button class="branch-map-select" type="button" data-location="WESCCU Aboso Ghana" data-label="Aboso Branch" aria-pressed="false">Show on map <i data-lucide="map" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="branch-map-panel glass reveal-up" aria-label="Selected branch map">
+                    <div class="branch-map-heading">
+                        <div>
+                            <span class="eyebrow">Branch location</span>
+                            <h3 id="branch-map-title">Takoradi (Main)</h3>
+                        </div>
+                        <a id="branch-map-open" href="https://www.google.com/maps/search/?api=1&query=WESCCU%20Anaji%20St%20Francis%20Street%20Takoradi%20Ghana" target="_blank" rel="noopener noreferrer">Open in Google Maps <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                    </div>
+                    <iframe id="branch-map" title="Map showing the Takoradi main branch area" src="https://www.google.com/maps?q=WESCCU%20Anaji%20St%20Francis%20Street%20Takoradi%20Ghana&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section faq-section bg-alt">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <div class="title-underline center"></div>
+                    <p class="section-subtitle">Everything you need to know before becoming a WESCCU member.</p>
+                </div>
+                
+                <div class="faq-container reveal-up">
+                    <div class="faq-item">
+                        <button class="faq-btn">
+                            What is the minimum amount to open an account?
+                            <i data-lucide="chevron-down"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>The initial deposit varies slightly depending on the account type. Please contact our support team or visit any branch with your ID and proof of address for exact details to get started.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn">
+                            How long does it take to get a business loan?
+                            <i data-lucide="chevron-down"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>Once you are a registered member and have met the savings requirement, our loan processing is fast and efficient. Most SME and business loans are processed within a few working days after complete documentation is submitted.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-btn">
+                            Can anyone join WESCCU?
+                            <i data-lucide="chevron-down"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>Yes, WESCCU is open to individuals, entrepreneurs, organized groups, and businesses who meet our basic membership requirements (Valid ID, Photos, Proof of Address, and Initial Deposit).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info reveal-left">
+                        <div class="section-header">
+                            <h2 class="section-title">Get In Touch</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <p class="contact-desc">Have questions about our services or want to become a member? Reach out to our friendly team today.</p>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon"><i data-lucide="phone"></i></div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:+233501301204">050 130 1204</a></p>
+                                    <p><a href="tel:+233501301205">050 130 1205</a></p>
+                                    <p><a href="tel:+233501308882">050 130 8882</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i data-lucide="mail"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:chambercreditunion@gmail.com">chambercreditunion@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <h4>Visit Us</h4>
+                                    <p><a href="#branches">Takoradi, Western Region, Ghana</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i data-lucide="clock-3"></i></div>
+                                <div>
+                                    <h4>Opening Hours</h4>
+                                    <p>Open Monday to Friday, 7:00–17:00.</p>
+                                    <p><a href="#branches">View branch locations and map</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper glass reveal-right">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" autocomplete="name" class="form-control" required placeholder=" ">
+                                <label for="name" class="form-label">Full Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" autocomplete="email" class="form-control" required placeholder=" ">
+                                <label for="email" class="form-label">Email Address</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" autocomplete="tel" class="form-control" required placeholder=" ">
+                                <label for="phone" class="form-label">Phone Number</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-control" rows="4" required placeholder=" "></textarea>
+                                <label for="message" class="form-label">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Prepare enquiry email</button>
+                            <p class="contact-form-status" aria-live="polite">Submitting opens your email app with the enquiry ready to send.</p>
+                            <p class="membership-privacy-note">Joining WESCCU? Send an enquiry first. Our team will confirm current requirements and explain how to provide identity documents securely. Please do not attach identity documents to an initial enquiry.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="logo footer-logo" aria-label="WESCCU home">
+                        <img src="assets/wesccu-logo.jpg" alt="" aria-hidden="true">
+                        <span class="logo-lockup">
+                            <span class="logo-name">WESCCU</span>
+                            <span class="logo-subtitle">Western Chamber Co-operative Credit Union</span>
+                        </span>
+                    </a>
+                    <p class="footer-desc">A member-owned credit union serving people and businesses in the Western Region.</p>
+                    <div class="social-links" aria-label="WESCCU social channels">
+                        <a href="https://web.facebook.com/WESCCUGhana/?_rdc=1&_rdr#" aria-label="Visit WESCCU on Facebook" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.2v2.2H7.7V13h2.7v8h3.1Z" fill="currentColor"/></svg><span>Facebook</span></a>
+                        <a href="https://wa.me/233501301204?text=Hello%20WESCCU%2C%20I%20would%20like%20to%20make%20an%20enquiry." aria-label="Chat with WESCCU on WhatsApp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.4-4.9a8.4 8.4 0 1 1 16.1-3.8ZM12 5.1a6.6 6.6 0 0 0-5.7 10l.2.4-.8 2.8 2.9-.8.4.2A6.6 6.6 0 1 0 12 5.1Zm3.7 9.4c-.2-.1-1.3-.7-1.5-.8s-.4-.1-.5.1-.6.7-.7.8-.3.2-.5.1a5.4 5.4 0 0 1-1.6-1 6 6 0 0 1-1.1-1.4c-.1-.2 0-.3.1-.4l.4-.5.2-.4v-.4c0-.1-.5-1.2-.7-1.6-.2-.4-.4-.3-.5-.3h-.4c-.2 0-.4.1-.6.3s-.8.8-.8 1.9.8 2.2.9 2.3 1.6 2.5 4 3.4c.6.2 1 .3 1.3.4.5.1 1 .1 1.3.1.4-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1-.1-.2-.3-.2-.5-.3Z" fill="currentColor"/></svg><span>WhatsApp</span></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#branches">Branches</a></li>
+                        <li><a href="https://wa.me/233501301204?text=Hello%20WESCCU%2C%20I%E2%80%99d%20like%20to%20join.%20Please%20share%20the%20membership%20requirements%20and%20next%20steps." target="_blank" rel="noopener noreferrer">Membership on WhatsApp</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Savings Accounts</a></li>
+                        <li><a href="#services">Susu Savings</a></li>
+                        <li><a href="#services">Business Loans</a></li>
+                        <li><a href="#services">Advisory Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for financial tips and WESCCU updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Address" required>
+                        <button type="submit" class="btn btn-primary"><i data-lucide="send"></i></button>
+                    </form>
+                    <p class="contact-form-status">Your email app will open with a subscription request ready to send.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Western Chamber Co-operative Credit Union. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scroll-top" class="icon-btn scroll-top-btn" aria-label="Scroll to top">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

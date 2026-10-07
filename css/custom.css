@@ -1,0 +1,78 @@
+/* Custom CSS for Western Chamber Co-operative Credit Union (WESCCU) */
+
+/* Modern Custom Range Sliders */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #032d60;
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+#loanDurationRange::-webkit-slider-thumb,
+#monthlySavingsRange::-webkit-slider-thumb {
+  background: #008744;
+}
+
+#savingsYearsRange::-webkit-slider-thumb {
+  background: #f59e0b;
+}
+
+/* Glassmorphism styling */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Tab active button states */
+.calc-tab-active {
+  background-color: #ffffff !important;
+  color: #032d60 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.calc-tab-inactive {
+  background-color: transparent !important;
+  color: #cbd5e1 !important;
+}
+
+/* Smooth Accordion */
+.faq-content {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Toast Notification Styling */
+.toast-msg {
+  pointer-events: auto;
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Subtle background grid pattern for enterprise polish */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+}
