@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore WESCCU information and services.">
+    <title>WESCCU | Information</title>
+    <link rel="icon" type="image/jpeg" href="assets/wesccu-logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/products.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="section-page-body">
+    <header class="navbar scrolled" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" aria-label="WESCCU home">
+                <img src="assets/wesccu-logo.jpg" alt="" aria-hidden="true">
+                <span class="logo-lockup"><span class="logo-name">WESCCU</span><span class="logo-subtitle">Western Chamber Co-operative Credit Union</span></span>
+            </a>
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="index.html#about">About</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#branches">Branches</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode"><i data-lucide="moon" class="moon-icon"></i><i data-lucide="sun" class="sun-icon"></i></button>
+                <a href="https://wa.me/233501301204?text=Hello%20WESCCU%2C%20I%E2%80%99d%20like%20to%20join.%20Please%20share%20the%20membership%20requirements%20and%20next%20steps." class="btn btn-primary nav-cta" target="_blank" rel="noopener noreferrer">Join Now</a>
+                <button class="mobile-menu-btn icon-btn" aria-label="Menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-menu" aria-label="Mobile navigation">
+        <button class="close-menu icon-btn" aria-label="Close menu"><i data-lucide="x"></i></button>
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="section-page.html?view=about">About</a>
+            <a href="section-page.html?view=services">Services</a>
+            <a href="section-page.html?view=why-us">Why Us</a>
+            <a href="section-page.html?view=branches">Branches</a>
+            <a href="section-page.html?view=contact">Contact</a>
+            <a href="https://wa.me/233501301204?text=Hello%20WESCCU%2C%20I%E2%80%99d%20like%20to%20join.%20Please%20share%20the%20membership%20requirements%20and%20next%20steps." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Join Now</a>
+        </div>
+    </div>
+    <main id="section-page-content" aria-live="polite">
+        <div class="section-page-loading">Loading WESCCU information…</div>
+    </main>
+    <footer class="section-page-footer">
+        <div class="container section-page-footer-inner">
+            <a href="index.html">← Back to homepage</a>
+            <span>© <span id="page-year"></span> Western Chamber Co-operative Credit Union</span>
+        </div>
+    </footer>
+    <script src="js/section-page.js"></script>
+</body>
+</html>

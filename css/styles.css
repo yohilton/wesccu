@@ -406,6 +406,7 @@ img {
     transition: right 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 
 .mobile-menu.open {
@@ -434,6 +435,61 @@ img {
 .mobile-nav-links .btn {
     border-bottom: none;
     margin-top: 1rem;
+}
+
+/* Focused content views opened from the mobile menu. */
+.section-page-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-page-content {
+    flex: 1;
+    padding-top: 4.5rem;
+}
+
+.section-page-loading,
+.section-page-error {
+    min-height: 65vh;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.section-page-error h1 {
+    color: var(--text-main);
+}
+
+.section-page-footer {
+    padding: 1.25rem 0;
+    background: var(--secondary);
+    color: #e8e6e3;
+}
+
+.section-page-footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.85rem;
+}
+
+.section-page-footer a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.section-page-footer a:hover {
+    color: var(--accent);
+}
+
+.mobile-explore-link {
+    display: none;
 }
 
 /* Hero Section */
@@ -1809,6 +1865,32 @@ img {
     .mobile-menu-btn {
         display: flex;
     }
+
+    body:not(.section-page-body) main > section:not(#hero):not(#about) {
+        display: none;
+    }
+
+    body:not(.section-page-body) > .footer,
+    body:not(.section-page-body) > .scroll-top-btn {
+        display: none;
+    }
+
+    .hero {
+        min-height: 0;
+        padding: 7.25rem 0 2.5rem;
+    }
+
+    .hero-container {
+        padding-bottom: 0;
+    }
+
+    .mobile-explore-link {
+        display: inline-flex;
+    }
+
+    .desktop-explore-link {
+        display: none;
+    }
     
     .hero-title {
         font-size: 2.5rem;
@@ -1844,6 +1926,21 @@ img {
     .logo-subtitle {
         font-size: 0.5rem;
         line-height: 1.3;
+    }
+
+    .mobile-menu {
+        height: 100dvh;
+        padding-bottom: 2rem;
+    }
+
+    .mobile-nav-links {
+        overflow-y: auto;
+        padding-bottom: 0.5rem;
+    }
+
+    .section-page-footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     .about-history-heading {

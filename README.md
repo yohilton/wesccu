@@ -10,9 +10,7 @@ No build step or package installation is required. From this folder, start a loc
 py -m http.server 3000
 ```
 
-Then open <http://localhost:3000> in your browser. Press `Ctrl+C` in the terminal to stop the server.
-
-You can also open `index.html` directly, though a local server is recommended for consistent asset loading.
+Then open <http://localhost:3000> in your browser. Press `Ctrl+C` in the terminal to stop the server. Use the local server so the focused pages linked from the mobile menu can load their content correctly.
 
 ## Project structure
 
